@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from scoring import scoring
+from app.scoring import scoring
 
 app = FastAPI()
 
