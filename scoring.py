@@ -23,7 +23,7 @@ def scoring(
             address_type = i
 
     if room_number <= 0:
-         print("Error with room number")
+         print("Error with number of room")
 
     if is_dig and surf and address_type:
 
